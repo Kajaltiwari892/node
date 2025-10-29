@@ -1,14 +1,14 @@
 {
-  "name": "devtinder",
+  "name": "e-05-middlewaresanderrorhanlders",
   "version": "1.0.0",
-  "description": "tinder for devs",
+  "description": "",
   "license": "ISC",
-  "author": "kajal",
+  "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start" : "node src/app.js",
-   "dev":"nodemon src/app.js"
+    "dev":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "^5.1.0",
