@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 // ek route se ek hi res jaega isiye only response will print , not 2nd response...
-app.use(
+app.get(
   "/user",
   (req, res ,next) => {
     // Route handler 1
@@ -28,7 +28,12 @@ app.use(
     console.log("handling rhe route user 4");
     // res.send("4th response");
   },
+
 );
+
+app.get('/user',(req,res)=>{
+  res.send("newnd route handler")
+})
 
 app.listen(3000, () => {
   console.log("http://localhost:3000/");
