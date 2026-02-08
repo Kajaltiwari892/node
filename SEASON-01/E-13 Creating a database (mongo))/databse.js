@@ -49,3 +49,14 @@ const url =
   .then(console.log)
   .catch(console.error)
   .finally(()=>client.close())
+
+  // you can read the documentation for the crud operations in mongodb 
+// go to the mongodb website 
+// create a free M0 cluster 
+// create a user 
+// get the  connection string
+// install mongodb compass
+// create  a database
+// intsall mongodb package 
+// create a connection from code
+// documentation for CRUD:  create read update and delete
