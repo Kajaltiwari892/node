@@ -25,9 +25,10 @@ const app = express();
 // if there is http://localhost:3000/user/123 , then we have to do "/user/:userId" and do req.params
 app.get('/user/:userId', (req,res)=>{
   console.log(req.params);
+  console.log(req.query);
+
   res.send({firstName:"kajal"})
 })
-
 
 app.listen(3000 , ()=>{
   console.log("http://localhost:3000/");
